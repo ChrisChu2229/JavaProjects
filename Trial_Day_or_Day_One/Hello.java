@@ -1,4 +1,4 @@
-package Lessons_and_Projects.Trial_Day_or_Day_One;
+package Trial_Day_or_Day_One;
 
 public class Hello {
 

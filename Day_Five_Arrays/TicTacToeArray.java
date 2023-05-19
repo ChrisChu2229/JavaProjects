@@ -37,6 +37,7 @@ public class TicTacToeArray {
                 System.out.println("Invalid move, try again."); // The selected cell is not empty
             }
         }
+        scanner.close();
     }
 
     private static void initializeBoard(char[] board) {

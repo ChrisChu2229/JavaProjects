@@ -1,4 +1,4 @@
-package Lessons_and_Projects.Misc;
+package Misc;
 
 import java.util.Scanner;
 
@@ -39,6 +39,7 @@ public class TicTacToe {
                 System.out.println("Invalid move, try again.");
             }
         }
+        scanner.close();
     }
 
     private static void initializeBoard(char[][] board) {
