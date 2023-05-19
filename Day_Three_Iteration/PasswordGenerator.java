@@ -1,4 +1,4 @@
-package Lessons_and_Projects.Day_Three_Iteration;
+package Day_Three_Iteration;
 
 import java.util.Random;
 import java.util.Scanner;

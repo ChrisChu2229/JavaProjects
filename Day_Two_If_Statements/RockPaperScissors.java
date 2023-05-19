@@ -1,4 +1,4 @@
-package Lessons_and_Projects.Day_Two_If_Statements;
+package Day_Two_If_Statements;
 
 import java.util.Random;
 import java.util.Scanner;

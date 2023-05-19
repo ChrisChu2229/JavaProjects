@@ -1,4 +1,4 @@
-package Lessons_and_Projects.Trial_Day_or_Day_One;
+package Trial_Day_or_Day_One;
 
 import java.util.Scanner;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package Lessons_and_Projects.Day_Five_Arrays;
+package Day_Five_Arrays;
 
 import java.util.Scanner;
 
