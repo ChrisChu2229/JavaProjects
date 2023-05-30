@@ -27,6 +27,11 @@ public class Hello {
         System.out.println(myProd);
         System.out.println(myMod);
 
+        String test = "test";
+        String test2 = new String("test");
+
+        System.out.println(test.equals(test2));
+
     }
 
 }
