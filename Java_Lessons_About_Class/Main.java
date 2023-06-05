@@ -25,7 +25,15 @@ public class Main {
         System.out.println("Enter account holder name:");
         String accountHolderName = scanner.nextLine();
 
-        BankAccount bankAccount = new BankAccount(accountNumber, accountHolderName);
+        System.out.println("Enter initial amount of money (0-1000):");
+        double initialAmount = scanner.nextDouble();
+
+        BankAccount bankAccount = null;
+        if (initialAmount == 0.0) {
+            bankAccount = new BankAccount(accountNumber, accountHolderName);
+        } else {
+            bankAccount = new BankAccount(accountNumber, accountHolderName, initialAmount);
+        }
 
         boolean done = false;
         while (!done) {

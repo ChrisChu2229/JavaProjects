@@ -19,6 +19,7 @@ public class PasswordGenerator {
         scanner.close();
     }
 
+    /* new topic: method with parameters */
     private static String generatePassword(int numLetters, int numNumbers, int numSymbols) {
         // Define all possible characters
         String upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -28,11 +29,14 @@ public class PasswordGenerator {
         String symbols = "!@#$%^&*_=+-/.?<>)";
 
         Random random = new Random();
-        StringBuilder password = new StringBuilder();
+        StringBuilder password = new StringBuilder(); /* new topic: string builder */
 
         for (int i = 0; i < numLetters; i++) {
             int randomIndex = random.nextInt(letters.length());
-            password.append(letters.charAt(randomIndex));
+            password.append(letters.charAt(randomIndex)); /*
+                                                           * new topic: charAt method which gets the letter at a
+                                                           * specific index
+                                                           */
         }
 
         for (int i = 0; i < numNumbers; i++) {
@@ -45,6 +49,8 @@ public class PasswordGenerator {
             password.append(symbols.charAt(randomIndex));
         }
 
-        return password.toString();
+        return password.toString(); /*
+                                     * turn the password to a string because string builder and string are different
+                                     */
     }
 }

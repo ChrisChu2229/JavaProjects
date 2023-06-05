@@ -32,6 +32,32 @@ public class Hello {
 
         System.out.println(test.equals(test2));
 
+        /* diamond pattern */
+
+        for (int i = 1; i <= 5; i++) {
+
+            for (int k = 5; k > i; k--) {
+                System.out.print(" ");
+            }
+
+            for (int j = 0; j < (i * 2) - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int ii = 4; ii > 0; ii--) {
+
+            for (int kk = 4; kk >= ii; kk--) {
+                System.out.print(" ");
+            }
+
+            for (int jj = 0; jj < (ii * 2) - 1; jj++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
     }
 
 }

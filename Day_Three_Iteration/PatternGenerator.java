@@ -9,9 +9,9 @@ public class PatternGenerator {
         for (int i = 0; i < rows; i++) {
 
             /* normal triangle */
-            // for (int k = rows; k > i + 1; k--) {
-            // System.out.print(" ");
-            // }
+            for (int k = rows; k > i + 1; k--) {
+                System.out.print(" ");
+            }
 
             /* reverse triangle */
             for (int j = 0; j <= i; j++) {
